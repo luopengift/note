@@ -9,3 +9,6 @@ http://backlogtool.com/git-guide/cn/intro/intro1_1.html
 - [x] 已实现的数据处理组件
     - [x] Default,直接连接input,output
     - [x] 在行尾加入换行符,例子:写文件
+    
+    
+    http://bbs.51cto.com/thread-1071001-1-1.html
