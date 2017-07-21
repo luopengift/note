@@ -1,0 +1,12 @@
+"POST" http://10.10.10.100:9200/zhizi-log-*/logs/_search?scroll=10m&size=10
+
+{
+  "query":{
+    "range":{
+      "timestamp":{
+        "gte":1500605469401,
+        "lte":1500605469411
+      }
+    }
+  }
+}
