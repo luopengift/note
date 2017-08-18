@@ -4,7 +4,7 @@ http://blog.csdn.net/liuxinmingcode/article/details/50480097
 ### git教程
 http://backlogtool.com/git-guide/cn/intro/intro1_1.html
 
-
+- [x] [exec](https://github.com/luopengift/transport/blob/master/plugins/input/exec/README.md): 执行程序/脚本
 - [x] 实现数据处理接口 
 - [x] 已实现的数据处理组件
     - [x] Default,直接连接input,output
@@ -12,3 +12,6 @@ http://backlogtool.com/git-guide/cn/intro/intro1_1.html
     
     
     http://bbs.51cto.com/thread-1071001-1-1.html
+    
+    
+    
