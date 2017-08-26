@@ -18,3 +18,7 @@ http://backlogtool.com/git-guide/cn/intro/intro1_1.html
 | ------| ------ | ------ |
 | 短文本 | 中等文本 | 稍微长一点的文本 |
 | 稍微长一点的文本 | 短文本 | 中等文本 |
+
+
+使用Golang实现的无锁队列，性能与Disruptor相当达到1400万/秒
+https://zhuanlan.zhihu.com/p/24432607
