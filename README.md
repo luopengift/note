@@ -20,3 +20,7 @@ http://www.bootcss.com/p/git-guide/
 https://zhuanlan.zhihu.com/p/24432607
 https://myronliu347.github.io/vue-carbon/#!/
 
+
+
+![nginx](https://github.com/luopengift/transport/blob/master/Image/png/nginx_log_analysis.png)
+![nginx](https://github.com/luopengift/transport/blob/master/static/png/nginx_log_analysis.png)
