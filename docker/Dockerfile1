@@ -1,0 +1,15 @@
+FROM centos:latest
+#FROM scratch
+LABEL MAINTAINER luopengift<870148195@qq.com>
+WORKDIR /data
+ENV GOROOT=/usr/local/go GOPATH=/data/golang PATH=/usr/local/go/bin:$PATH
+RUN yum -y install wget openssh-server git && \
+    ssh-keygen -t rsa -N "" -f /etc/ssh/ssh_host_rsa_key && \
+    ssh-keygen -t ecdsa -N "" -f /etc/ssh/ssh_host_ecdsa_key && \
+    ssh-keygen -t ed25519 -N "" -f /etc/ssh/ssh_host_ed25519_key
+RUN wget https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz && \
+    tar -xvf go1.9.linux-amd64.tar.gz && rm -rf go1.9.linux-amd64.tar.gz && \
+    mv go /usr/local/go
+RUN go get github.com/luopengift/transport && cd $GOPATH/src/github.com/luopengift/transport && \
+    go get ./... && ./init.sh build cmd/main.go && mv transport /usr/local/bin
+ENTRYPOINT ["transport" ]
