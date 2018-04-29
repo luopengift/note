@@ -9,7 +9,7 @@ http://220.112.193.200/files/9130000004D8B9C4/download.oracle.com/otn-pub/java/j
 
 
 
-wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo 
-yum clean && yum makecache
-yum install docker-ce
+1. wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo
+2. yum clean && yum makecache
+3. yum install docker-ce
 
